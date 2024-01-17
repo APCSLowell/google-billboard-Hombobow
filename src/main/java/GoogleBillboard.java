@@ -5,9 +5,9 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 	  double firstTenPrime = 0;
 	  
-	  for (int i = 0; i < newE.length() - 10; i++)
+	  for (int i = 0; i < e.length() - 10; i++)
 	  {
-	    double num = Double.parseDouble(newE.substring(i, i+10));
+	    double num = Double.parseDouble(e.substring(i, i+10));
 	    if (isPrime(num))
 	    {
 	      firstTenPrime = num;
