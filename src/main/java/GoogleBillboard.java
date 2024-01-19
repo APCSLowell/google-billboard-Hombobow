@@ -15,7 +15,8 @@ public class GoogleBillboard {
 	    }
 	  }
 	
-	  System.out.println(Double.toString(firstTenPrime).substring(0, 1) + Double.toString(firstTenPrime).substring(2, 11));
+	  // System.out.println(Double.toString(firstTenPrime).substring(0, 1) + Double.toString(firstTenPrime).substring(2, 11));
+	  System.out.println(firstTenPrime);
 	}
 	
 	public static boolean isPrime(double dNum)
